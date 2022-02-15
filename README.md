@@ -1,7 +1,7 @@
 # A2
 IDG1293 Assignment 2
 
-Group name: blue dogs
+Group name: pink dogs
 
 What the project does
 This project is given to us through NTNU's cource IDG1293.
