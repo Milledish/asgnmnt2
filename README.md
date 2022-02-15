@@ -11,8 +11,17 @@ Why the project is useful
 The project is useful because the users can learn about one of the Sustainability Goals.
 
 How users can get started with the project
+    - First have a scrollytelling idea - Something your interested in? Climate change? A meme? Your choice!
+    - Do some sketches to vizualize your idea to your colleagues
+    - Start making a html webpage
+    - And boom your done(?)
 
 Where users can get help with your project
+    - Contact us on Facebook
+    - hit us up on Email
+        - mathiakk@stud.ntnu.no
+        - ?@stud.ntnu.no
+        - ?@stud.ntnu.no
 
 
 
