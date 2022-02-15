@@ -8,6 +8,7 @@ This project is given to us through NTNU's course IDG1293. It revolves around us
 
 
 Why the project is useful
+The project is useful because the users can learn about one of the Sustainability Goals.
 
 How users can get started with the project
 
