@@ -1,7 +1,7 @@
 # A2
 IDG1293 Assignment 2
 
-Group name: pink dogs
+Group name: pink dogs (cause we love pink dogs - duh)
 
 What the project does
 This project is given to us through NTNU's course IDG1293. It revolves around using different technologies to develop a scrollytelling website.
