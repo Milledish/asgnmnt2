@@ -20,7 +20,7 @@ Where users can get help with your project
     - Contact us on Facebook
     - hit us up on Email
         - mathiakk@stud.ntnu.no
-        - ?@stud.ntnu.no
+        - milles@stud.ntnu.no
         - ?@stud.ntnu.no
 
 
