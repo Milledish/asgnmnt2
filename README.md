@@ -18,4 +18,4 @@ Where users can get help with your project
 
 Within this project, we're using Visual Studio Code as the technology for implementing HTML, CSS, SCSS and JavaScript code.
 
-The proeject is maintained and contributed to by Marianne Mytting, Mille Dishington and Mathias Kvarsvik Kvalvåg.
+The project is maintained and contributed to by Marianne Mytting, Mille Dishington and Mathias Kvarsvik Kvalvåg.
