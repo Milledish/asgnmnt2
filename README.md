@@ -3,12 +3,11 @@ IDG1293 Assignment 2
 
 Group name: pink dogs (cause we love pink dogs - duh)
 
-What the project does
-This project is given to us through NTNU's course IDG1293. It revolves around using different technologies to develop a scrollytelling website.
+The project task covered in this repository is given to us through NTNU's webdevelopments course, IDG1293. The task revolves around using different technologies to develop a scrollytelling website about one of the 17 UN sustainable development goals.
 
+These goals can be found here: https://sdgs.un.org/goals
 
-Why the project is useful
-The project is useful because the users can learn about one of the Sustainability Goals.
+This project will cover goal xx, and implemented, will present a scrollytelling website, which will broadcast information about and offer a useful learning source about the said goal and how we can attain it.
 
 How users can get started with the project
     - First open Visual Studio code
@@ -16,15 +15,13 @@ How users can get started with the project
     - Then start making changes and then go into source control and add a message (what you changed - and what files/folder u changed)
     - and push it onto Github!
 
-Where users can get help with your project
-    - Contact us on Facebook
-    - hit us up on Email
+    --> Request to change later, based on the lack of error knowledge per se.
+
+Requests concerning the usage and/or execution of the project, can be directed to the contributors through E-mail. 
         - mathiakk@stud.ntnu.no
         - milles@stud.ntnu.no
-        - ?@stud.ntnu.no
+        - mariaamy@stud.ntnu.no
 
-
-
-Within this project, we're using Visual Studio Code as the technology for implementing HTML, CSS, SCSS and JavaScript code.
+Within this project, we're using Visual Studio Code as the main technology for implementing the different development components. For reference, the HTML contains the structures of the page. The SCSS (Sass) contains styling, compiled into CSS. Lastly, the JavaScript is applied for the purpose of the on-scroll animations to be put into effect.
 
 The project is maintained and contributed to by Marianne Mytting, Mille Dishington and Mathias Kvarsvik Kvalvåg.
