@@ -4,16 +4,16 @@ body {
   display: flex;
 }
 
-.box__first {
+.box__body {
   background-color: #7c71b4;
   width: 350px;
   height: 350px;
   margin: 100px;
-  -webkit-animation: purplebox 10s linear 2s infinite;
-          animation: purplebox 10s linear 2s infinite;
+  -webkit-animation: rotate 10s linear 2s infinite;
+          animation: rotate 10s linear 2s infinite;
 }
 
-@-webkit-keyframes purplebox {
+@-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -24,7 +24,7 @@ body {
   }
 }
 
-@keyframes purplebox {
+@keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -54,14 +54,14 @@ body {
 }
 
 @media (prefers-reduced-motion) {
-  .box__first {
+  .box__body {
     -webkit-animation: none;
             animation: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .box__first {
+  .box__body {
     background-color: #4c427f;
   }
   body {
