@@ -68,4 +68,83 @@ body {
     background-color: #141414;
   }
 }
+
+.box2__body {
+  background-color: #ff55e3;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  -webkit-animation: resizing 3s linear infinite;
+          animation: resizing 3s linear infinite;
+}
+
+@-webkit-keyframes resizing {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes resizing {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .box2__body {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .box2__body {
+    background-color: #ee00c7;
+  }
+  body {
+    background-color: #141414;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .box2__body {
+    background-color: #ff55e3;
+  }
+}
 /*# sourceMappingURL=index.css.map */
