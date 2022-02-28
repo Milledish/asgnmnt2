@@ -1,3 +1,52 @@
 @import "./colors";
 @import "./fonts";
-@import "./mixins"
+@import "./mixins";
+
+body {
+    display: flex;
+}
+
+.box__body {
+    background-color: rgb(124, 113, 180);
+    width: 350px;
+    height: 350px;
+    margin: 100px;
+    animation: rotate 10s linear 2s infinite;
+  }
+  
+  @keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+  }
+
+
+  @media (orientation: landscape) {
+    body {
+      flex-direction: row;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    body {
+      flex-direction: column;
+    }
+  }
+
+  @media (prefers-reduced-motion) {
+      .box__body {
+          animation: none;
+      }
+  }
+
+  @media (prefers-color-scheme: dark) {
+      .box__body {
+          background-color: darken(rgb(140, 130, 190), 25%);
+      }
+      body {
+          background-color: rgb(20, 20, 20)
+      }
+  }
+
+  @media (prefers-color-scheme: light) {
+    
+  }
