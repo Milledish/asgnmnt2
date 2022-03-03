@@ -45,10 +45,12 @@ body {
       body {
           background-color: rgb(20, 20, 20)
       }
-  }
+  } 
 
   @media (prefers-color-scheme: light) {
-    
+      .box__body {
+          background-color: rgb(124, 113, 180);
+      }
   }
 
 
