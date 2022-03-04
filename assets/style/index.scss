@@ -56,50 +56,50 @@ body {
 
 
   
-.box2__body {
-  background-color: rgb(255, 85, 227);
-  height: 200px;
-  width: 200px;
-  margin: 100px;
-  animation: resizing 3s linear infinite;
-}
-
-  @keyframes resizing {
-    0% {transform:scaleX(1);}
-    50% {transform: scaleX(0);}
-    100% {transform: scaleX(1);}
-  }
-
-  @media (orientation: landscape) {
-    body {
-      flex-direction: row;
-    }
-  }
-  
-  @media (orientation: portrait) {
-    body {
-      flex-direction: column;
-    }
-  }
-
-  @media (prefers-reduced-motion) {
-    .box2__body {
-        animation: none;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .box2__body {
-        background-color: darken(rgb(255, 85, 227), 20%);
-    }
-    body {
-        background-color: rgb(20, 20, 20)
-    }
-}
-
-@media (prefers-color-scheme: light) {
   .box2__body {
     background-color: rgb(255, 85, 227);
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    animation: resizing 3s linear infinite;
   }
   
-}
+    @keyframes resizing {
+      0% {transform:scaleX(1);}
+      50% {transform: scaleX(0);}
+      100% {transform: scaleX(1);}
+    }
+  
+    @media (orientation: landscape) {
+      body {
+        flex-direction: row;
+      }
+    }
+    
+    @media (orientation: portrait) {
+      body {
+        flex-direction: column;
+      }
+    }
+  
+    @media (prefers-reduced-motion) {
+      .box2__body {
+          animation: none;
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+      .box2__body {
+          background-color: darken(rgb(255, 85, 227), 20%);
+      }
+      body {
+          background-color: rgb(20, 20, 20)
+      }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .box2__body {
+      background-color: rgb(255, 85, 227);
+    }
+    
+  }
